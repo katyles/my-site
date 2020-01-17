@@ -56,10 +56,10 @@ time {
   color: #6a2cce;
 }
 
-a[href] {
+.link-active {
   color: #0099ef;
   text-decoration: underline;
-}
+} 
 
 del {
   color: #ff4400;
@@ -111,6 +111,18 @@ i {
 }
 
 .blog-navigation a {
+  color: #ffffff;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #288be6;
   color: #ffffff;
 }
 

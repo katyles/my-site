@@ -19,6 +19,18 @@ h2 {
   border-bottom: 1px solid #cccccc;
 }
 
+.button {
+  margin-top: 20px;
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #ff5a26;
+  color: #ffffff;
+}
+
 .site-header {
   margin-bottom: 30px;
 }
@@ -87,6 +99,7 @@ h2 {
 }
 
 .site-footer {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   color: #999999;
